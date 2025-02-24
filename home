@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portfolio | Timon Akira Pelster</title>
+  <link rel="stylesheet" type="text/css" href="./out.css" />
+</head>
+
+<body>
+  <div class="grid h-screen w-screen grid-cols-[calc(38.197%-0.375rem)calc(61.803%-0.375rem)] gap-3 bg-[#C6C4BD] p-3">
+    <div class="col-start-1 h-full w-full text-sm">
+      <h2>
+        <a href="./home">Timon Akira Pelster.</a> <br />Portfolio 2020-2024
+      </h2>
+      <div class="fixed top-[267px] inline-flex flex-col items-start gap-4">
+        <h2><a href="./home">~Home</a></h2>
+        <div class="inline-flex">
+          <h2><a href="./projects">~Projects</a></h2>
+          <div class="ml-3 inline-flex flex-col items-start gap-1">
+            <h2><a href="./projects/locu">Locu</a></h2>
+            <h2><a href="./projects/animasyros">Animasyros</a></h2>
+            <h2><a href="./projects/dpsd-radio">Dpsd Radio</a></h2>
+            <h2>
+              <a href="./projects/matterials-matter.html">Matterials Matter</a>
+            </h2>
+            <h2><a href="./projects/group">Group</a></h2>
+            <h2><a href="./projects/echo">Echo</a></h2>
+            <h2><a href="./projects/medi-bread">Medi-bread</a></h2>
+          </div>
+        </div>
+        <div class="inline-flex">
+          <h2><a href="./projects/#personal">~Personal</a></h2>
+          <div class="online-flex ml-3 flex-col items-start gap-1">
+            <h2><a href="./personal/pertesi">Pertesi</a></h2>
+            <h2><a href="./personal/ceramics">Ceramics</a></h2>
+            <h2><a href="./personal/other">Other</a></h2>
+          </div>
+        </div>
+        <h2><a href="./about">~About</a></h2>
+      </div>
+      <h2 class="fixed bottom-3 italic text-gray-600">
+        external links: <a href="https://www.behance.net/timonakira">behance</a>,
+        <a href="/">instagram</a>
+      </h2>
+    </div>
+    <div class="col-start-2">
+      {@render children()}
+    </div>
+  </div>
+</body>
+
+<style>
+</style>
+
+</html>
